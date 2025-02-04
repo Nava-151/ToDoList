@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Pictures\\2th year\\practicode\\to-do-list\\‏‏תיקיה חדשה\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\user1\\Pictures\\2th year\\practicode\\practicod 4\\Server\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Pictures\\2th year\\practicode\\to-do-list\\‏‏תיקיה חדשה\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\user1\\Pictures\\2th year\\practicode\\practicod 4\\Server\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\to-do-list\\‏‏תיקיה חדשה\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\practicod 4\\Server\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\to-do-list\\‏‏תיקיה חדשה\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\practicod 4\\Server\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\to-do-list\\‏‏תיקיה חדשה\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\practicod 4\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

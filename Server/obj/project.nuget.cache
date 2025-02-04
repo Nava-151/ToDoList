@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gpznBJSdT+iGhCv8KUn2slMKub84XzPGOsL/Z+xpJVZi+FuRhkBqO9B21/+QLQ+Oz+bVhrA1JC/b4mrkS+8FjA==",
+  "dgSpecHash": "6PxloUG7wcv2ewWuOFsHV9l+AkobJMxmP04Wn9lKKOb8Y1ePzvGjyf/l8ZNCfIqWjAhN+zw9CoAUFdMJraAE+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\to-do-list\\‏‏תיקיה חדשה\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Pictures\\2th year\\practicode\\practicod 4\\Server\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.3.0\\microsoft.aspnetcore.cors.2.3.0.nupkg.sha512",
