@@ -76,8 +76,6 @@ app.MapPost("/items", async (Item item, ToDoDbContext db) =>
     await db.SaveChangesAsync();
     return Results.Created($"/items/{item.Id}", item);
 });
-
-// PUT update item
 app.MapPut("/items/{id}", async (int id, Item inputItem, ToDoDbContext db) =>
 {
     var item = await db.Items.FindAsync(id);
