@@ -51,6 +51,8 @@ C:\Users\user1\Pictures\2th year\practicode\to-do-list\‏‏תיקיה חדשה
 C:\Users\user1\Pictures\2th year\practicode\to-do-list\‏‏תיקיה חדשה\TodoApi\obj\Debug\net7.0\ref\TodoApi.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\appsettings.json
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\package-lock.json
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\package.json
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\TodoApi.exe
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\TodoApi.deps.json
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\TodoApi.runtimeconfig.json
