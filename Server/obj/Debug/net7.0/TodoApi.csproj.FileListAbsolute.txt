@@ -58,6 +58,7 @@ C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\TodoApi.runtimeconfig.json
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\TodoApi.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\TodoApi.pdb
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Docker.Registry.DotNet.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Humanizer.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -70,15 +71,19 @@ C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\System.Text.Encodings.Web.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
 C:\Users\user1\Pictures\2th year\practicode\practicod 4\Server\obj\Debug\net7.0\TodoApi.csproj.AssemblyReference.cache

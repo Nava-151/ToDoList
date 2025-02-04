@@ -32,7 +32,7 @@ public partial class ToDoDbContext : DbContext
 
             entity.ToTable("items");
 
-            entity.Property(e => e.Id).HasColumnName("id");
+            // entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Name).HasMaxLength(100);
         });
 
