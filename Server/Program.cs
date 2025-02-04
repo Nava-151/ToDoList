@@ -58,7 +58,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 // Define API endpoints
-
+app.MapGet("/", () => "this is working!");
 // GET all items
 app.MapGet("/items", async (ToDoDbContext db) =>
     await db.Items.ToListAsync());
