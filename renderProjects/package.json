@@ -1,15 +1,16 @@
 {
   "name": "renderprojects",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "type":"module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "description": "",
   "dependencies": {
     "@api/render-api": "file:.api/apis/render-api",
