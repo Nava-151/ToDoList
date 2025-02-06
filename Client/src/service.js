@@ -15,6 +15,8 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     const result = await axios.get(`/items`);
+    console.log(result.data);
+    
     if(Array.isArray(result.data)){
     return result.data;
       
@@ -22,7 +24,7 @@ export default {
     else
     {
       alert("no tasks")
-      return []
+      return result.data;
     }
   },
 
