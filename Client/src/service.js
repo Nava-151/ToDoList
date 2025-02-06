@@ -1,54 +1,46 @@
 import axios from 'axios';
-axios.defaults.baseURL =process.env.REACT_APP_API_URL
 
+axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
-
+// הוספת Interceptor לתפיסת שגיאות ורישום ללוג
 axios.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  (error) => {
-    console.error('Response error:', error.response ? error.response.data : error.message);
-    return Promise.reject(error);
+  response => response, // מחזיר את התגובה כרגיל אם אין שגיאה
+  error => {
+    console.error('API Error:', {
+      message: error.message,
+      status: error.response?.status,
+      data: error.response?.data
+    });
+    return Promise.reject(error); 
   }
 );
 
 export default {
   getTasks: async () => {
-    const result = await axios.get(`/items`);
-    return result.data;
+    const result = await axios.get('/tasks');
+    if (Array.isArray(result.data))
+    return result.data
+    else {
+      alert("no tasks");
+      return [];
+    }
   },
 
   addTask: async (name) => {
     console.log('addTask', name);
-    try {
-      const result = await axios.post(`/items`, { name });
-      return result.data;
-    } catch (error) {
-      console.error('Error adding task:', error);
-      throw error;
-    }
+    const result = await axios.post('/tasks', { Name:name , isComplete:false });
+    return result.data;
   },
 
   setCompleted: async (id, isComplete) => {
     console.log('setCompleted', { id, isComplete });
-    try {
-      const result = await axios.put(`/items/${id}`, { isComplete });
-      return result.data;
-    } catch (error) {
-      console.error('Error updating task:', error);
-      throw error;
-    }
+    const result = await axios.put(`/tasks/${id}`, { isComplete: isComplete} );
+    return result.data;
   },
 
   deleteTask: async (id) => {
-    console.log('deleteTask', id);
-    try {
-      await axios.delete(`/items/${id}`);
-      return { success: true };
-    } catch (error) {
-      console.error('Error deleting task:', error);
-      throw error;
-    }
+    console.log('deleteTask');
+    const result = await axios.delete(`/tasks/${id}`);
+    return result.data;
   }
 };
