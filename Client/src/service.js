@@ -17,7 +17,7 @@ axios.interceptors.response.use(
 
 export default {
   getTasks: async () => {
-    const result = await axios.get('/tasks');
+    const result = await axios.get('/items');
     console.log(result);
     
     if (Array.isArray(result.data))
@@ -30,19 +30,19 @@ export default {
 
   addTask: async (name) => {
     console.log('addTask', name);
-    const result = await axios.post('/tasks', { Name:name , isComplete:false });
+    const result = await axios.post('/items', { Name:name , isComplete:false });
     return result.data;
   },
 
   setCompleted: async (id, isComplete) => {
     console.log('setCompleted', { id, isComplete });
-    const result = await axios.put(`/tasks/${id}`, { isComplete: isComplete} );
+    const result = await axios.put(`/items/${id}`, { isComplete: isComplete} );
     return result.data;
   },
 
   deleteTask: async (id) => {
     console.log('deleteTask');
-    const result = await axios.delete(`/tasks/${id}`);
+    const result = await axios.delete(`/items/${id}`);
     return result.data;
   }
 };
