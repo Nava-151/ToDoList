@@ -18,6 +18,8 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     const result = await axios.get('/tasks');
+    console.log(result);
+    
     if (Array.isArray(result.data))
     return result.data
     else {
