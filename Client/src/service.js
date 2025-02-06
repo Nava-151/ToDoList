@@ -24,7 +24,7 @@ export default {
     else
     {
       alert("no tasks")
-      return result.data;
+      return []
     }
   },
 
