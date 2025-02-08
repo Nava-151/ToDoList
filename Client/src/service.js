@@ -1,7 +1,6 @@
 import axios from 'axios';
-axios.defaults.baseURL =process.env.REACT_APP_API_URL
+axios.defaults.baseURL=process.env.REACT_APP_API_URL
 
-console.log("process url"+process.env.REACT_APP_API_URL);
 
 axios.interceptors.response.use(
   (response) => {
@@ -16,10 +15,6 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     const result = await axios.get(`/items`);
-    console.log(axios.defaults.baseURL+"/items")
-    
-    console.log(result.data);
-    
     if(Array.isArray(result.data)){
     return result.data;
       
@@ -45,7 +40,7 @@ export default {
   setCompleted: async (id, isComplete) => {
     console.log('setCompleted', { id, isComplete });
     try {
-      const result = await axios.put(`/items/${id}`, { isComplete });
+      const result = await axios.put(`/items/${id}`, { isComplete:isComplete});
       return result.data;
     } catch (error) {
       console.error('Error updating task:', error);
